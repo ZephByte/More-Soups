@@ -3,13 +3,13 @@
 	"id": "moresoups",
 	"version": "${version}",
 	"name": "More Soups",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod that adds more soups to the game. Created by ZephByte.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ZephByte",
+		"sources": "https://github.com/ZephByte/More-Soups"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/moresoups/icon.png",
@@ -26,6 +26,9 @@
 				"value": "net.zephbyte.moresoups.MoreSoupsDataGenerator",
 				"adapter": "kotlin"
 			}
+		],
+		"client": [
+			"net.zephbyte.moresoups.MoreSoupsClient"
 		]
 	},
 	"mixins": [
