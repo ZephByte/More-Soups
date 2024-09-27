@@ -11,9 +11,12 @@ import net.zephbyte.moresoups.MoreSoups
 class ModItems {
     companion object {
 
-        val HAM_AND_POTATO_SOUP: Item = registerItem("ham_and_potato_soup", Item(Item.Settings()))
-        val CHICKEN_NOODLE_SOUP: Item = registerItem("chicken_noodle_soup", Item(Item.Settings()))
-        val BEEF_STEW: Item = registerItem("beef_stew", Item(Item.Settings()))
+        val HAM_AND_POTATO_SOUP: Item = registerItem("ham_and_potato_soup",
+            Item(Item.Settings().food(ModFoodComponents.HAM_AND_POTATO_SOUP)))
+        val CHICKEN_NOODLE_SOUP: Item = registerItem("chicken_noodle_soup",
+            Item(Item.Settings().food(ModFoodComponents.CHICKEN_NOODLE_SOUP)))
+        val BEEF_STEW: Item = registerItem("beef_stew",
+            Item(Item.Settings().food(ModFoodComponents.BEEF_STEW)))
 
         private fun registerItem(name: String, item: Item): Item {
             return Registry.register(Registries.ITEM, Identifier.of(MoreSoups.MOD_ID, name), item)
