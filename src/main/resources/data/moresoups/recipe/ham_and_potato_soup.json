@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:potato",
+      "count": 1
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bowl",
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moresoups:ham_and_potato_soup"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef",
+      "count": 1
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bowl",
+      "count": 1
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moresoups:beef_stew"
+  }
+}
